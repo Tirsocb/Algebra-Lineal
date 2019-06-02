@@ -40,26 +40,15 @@ A = [[1, 2, 3, 4, 5],
 
 print("Inciso 5")
 # imprime toda la matriz
-print("A= "+str(A[0]))  # primera fila
-print("   "+str(A[1]))  # segunda fila
-print("   "+str(A[2]))  # tercera fila
-print("   "+str(A[3]))  # cuarta fila
-print("   "+str(A[4]))  # quinta fila
+for a in range(len(A)):
+    print("  "+str(A[a]))
 
 print("Inciso 6")
-# Cambio de valores en la matriz
-A[0][0] = 0  # primera fila primer valor
-A[1][1] = 0  # segunda fila segundo valor
-A[2][2] = 0  # tercera fila tercer valor
-A[3][3] = 0  # cuarta fila cuarto valor
-A[4][4] = 0  # quinta fila quinto valor
 
 # imprime toda la matriz
-print("A= "+str(A[0]))  # primera fila
-print("   "+str(A[1]))  # segunda fila
-print("   "+str(A[2]))  # tercera fila
-print("   "+str(A[3]))  # cuarta fila
-print("   "+str(A[4]))  # quinta fila
+for a in range(len(A)):
+    print("  "+str(A[a]))
+
 
 
 
